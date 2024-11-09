@@ -38,7 +38,7 @@ function App() {
               </NavDropdown>
             </Nav>
           </Navbar.Collapse> */}
-          <Form inline>
+          <Form>
             <InputGroup>
               <InputGroup.Text id="basic-addon1">0/1</InputGroup.Text>
               <Form.Control
