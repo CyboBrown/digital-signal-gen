@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Table from "react-bootstrap/Table";
 
 function SignalTable({ code }: { code: string }) {
@@ -69,7 +68,7 @@ function SignalTable({ code }: { code: string }) {
         <tr>
           <td></td>
           <td className={codeArray[0] === "0" ? "border-end" : ""}>NRZ-I</td>
-          {codeArray.map((item, index, array) => (
+          {codeArray.map((_item, index, array) => (
             <td
               colSpan={2}
               className={
@@ -206,7 +205,7 @@ function SignalTable({ code }: { code: string }) {
           <td className={codeArray[0] === "1" ? "border-end" : ""}>
             Differential Manchester
           </td>
-          {codeArray.map((item, index, array) => (
+          {codeArray.map((item, index) => (
             <>
               <td
                 className={
