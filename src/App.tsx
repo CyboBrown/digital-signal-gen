@@ -1,9 +1,6 @@
 import { SetStateAction, useState } from "react";
 import { Navbar, Container, Button, Form, InputGroup } from "react-bootstrap";
 import SignalTable from "./SignalTable";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
-// import './App.css'
 
 function App() {
   const [input, setInput] = useState("");
